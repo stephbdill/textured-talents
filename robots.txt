@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /background-palette.html
+
+Sitemap: https://texturedtalents.com/sitemap.xml
