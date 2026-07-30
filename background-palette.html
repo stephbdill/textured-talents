@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Color Palette - Textured Talent</title>
+  <style>
+    :root {
+      --terracotta: #B85C38;
+      --terracotta-dark: #96462A;
+      --card: #FFFDF7;
+      --charcoal: #33312E;
+      --ink: #4A4742;
+      --deep-green: #3E5641;
+      --serif: Georgia, 'Times New Roman', serif;
+      --sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      color: var(--charcoal);
+      background: #edf4ee;
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4vw, 3.1rem);
+      font-weight: 500;
+      margin: 0 0 0.4rem;
+    }
+
+    .intro {
+      max-width: 760px;
+      color: var(--ink);
+      font-size: 1.08rem;
+      margin-bottom: 2rem;
+    }
+
+    .palette {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .option {
+      min-height: 270px;
+      border: 1px solid rgba(51, 49, 46, 0.12);
+      border-radius: 10px;
+      padding: 1rem;
+      box-shadow: 0 8px 24px rgba(51, 49, 46, 0.14);
+    }
+
+    .sample-card {
+      background: var(--card);
+      border-radius: 8px;
+      padding: 1rem;
+      min-height: 160px;
+      box-shadow: 0 4px 12px rgba(51, 49, 46, 0.12);
+    }
+
+    .sample-card h2 {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 1.35rem;
+      margin: 0 0 0.35rem;
+    }
+
+    .sample-card p {
+      color: var(--ink);
+      margin: 0 0 0.9rem;
+      font-size: 0.95rem;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--terracotta);
+      color: #fff;
+      font-weight: 700;
+      border-radius: 8px;
+      padding: 0.55rem 0.9rem;
+      font-size: 0.88rem;
+    }
+
+    .label {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.7rem;
+      margin-top: 0.85rem;
+      font-size: 0.95rem;
+    }
+
+    .label strong {
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    code {
+      color: var(--deep-green);
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .current { outline: 4px solid rgba(184, 92, 56, 0.45); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Background Color Options</h1>
+    <p class="intro">Pick the background that feels right. Each option shows the color behind the same warm card and terracotta button used on the site. The first row is lighter; the later choices get darker and more blue-green.</p>
+
+    <section class="palette">
+      <article class="option" style="background:#D2ECE6;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Soft, airy blue-green. This is the current version.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>1. Soft Sea Glass</strong><code>#D2ECE6</code></div>
+      </article>
+
+      <article class="option" style="background:#C8E8E3;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>A little stronger and cooler without getting dark.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>2. Clear Aqua Sage</strong><code>#C8E8E3</code></div>
+      </article>
+
+      <article class="option" style="background:#BFE1DD;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>More visible blue-green, still calm and gallery-friendly.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>3. Blue Eucalyptus</strong><code>#BFE1DD</code></div>
+      </article>
+
+      <article class="option" style="background:#B7DBD5;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Stronger color. Good if you want the background to be obvious.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>4. Spa Teal</strong><code>#B7DBD5</code></div>
+      </article>
+
+      <article class="option" style="background:#CDE7D4;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>More green than blue, but fresher than the first sage.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>5. Fresh Sage Mint</strong><code>#CDE7D4</code></div>
+      </article>
+
+      <article class="option" style="background:#C4E4D8;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Balanced green-blue with a handmade, natural feel.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>6. Mint Patina</strong><code>#C4E4D8</code></div>
+      </article>
+
+      <article class="option" style="background:#B9D9D1;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Muted and more sophisticated, with a slightly deeper tone.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>7. Dusty Blue Green</strong><code>#B9D9D1</code></div>
+      </article>
+
+      <article class="option" style="background:#D6EEE2;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Light mint with less blue. Gentle, clean, and bright.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>8. Pale Mint</strong><code>#D6EEE2</code></div>
+      </article>
+
+      <article class="option" style="background:#ACD4CE;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Noticeably darker, but still soft and airy.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>9. Seafoam Studio</strong><code>#ACD4CE</code></div>
+      </article>
+
+      <article class="option" style="background:#A2CCC7;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Cooler and more saturated, with a stronger blue cast.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>10. Blue Mist Teal</strong><code>#A2CCC7</code></div>
+      </article>
+
+      <article class="option" style="background:#98C5BE;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Balanced medium blue-green with good contrast.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>11. Eucalyptus Teal</strong><code>#98C5BE</code></div>
+      </article>
+
+      <article class="option" style="background:#8FBDB6;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>A confident teal background without going too moody.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>12. Gallery Teal</strong><code>#8FBDB6</code></div>
+      </article>
+
+      <article class="option" style="background:#86B6AD;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Earthy blue-green that still feels natural and warm.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>13. Patina Green</strong><code>#86B6AD</code></div>
+      </article>
+
+      <article class="option" style="background:#7CAEA5;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Darker, richer, and clearly blue-green.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>14. Weathered Teal</strong><code>#7CAEA5</code></div>
+      </article>
+
+      <article class="option" style="background:#74A69D;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>A saturated teal that gives the page more personality.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>15. Artist Teal</strong><code>#74A69D</code></div>
+      </article>
+
+      <article class="option" style="background:#6A9B94;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Deeper and calmer, closer to a muted coastal teal.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>16. Coastal Green</strong><code>#6A9B94</code></div>
+      </article>
+
+      <article class="option" style="background:#5F918B;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Strong and sophisticated, with a darker gallery feel.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>17. Deep Sea Sage</strong><code>#5F918B</code></div>
+      </article>
+
+      <article class="option" style="background:#548780;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Moody blue-green, best if you want a bolder site.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>18. Muted Teal</strong><code>#548780</code></div>
+      </article>
+
+      <article class="option" style="background:#497A74;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Dark teal, dramatic against the warm card color.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>19. Deep Lagoon</strong><code>#497A74</code></div>
+      </article>
+
+      <article class="option" style="background:#3F6F69;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>The darkest option here. Rich, bold, and more dramatic.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>20. Shadow Teal</strong><code>#3F6F69</code></div>
+      </article>
+
+      <article class="option current" style="background:#356F78;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>The current site color. More blue than green.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>21. Current Blue Teal</strong><code>#356F78</code></div>
+      </article>
+
+      <article class="option" style="background:#2F6875;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Darker and bluer than the current color.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>22. Deep Ocean Teal</strong><code>#2F6875</code></div>
+      </article>
+
+      <article class="option" style="background:#286575;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Strong blue-green, still not navy.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>23. Blue Lagoon</strong><code>#286575</code></div>
+      </article>
+
+      <article class="option" style="background:#235D6E;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Moody and more blue, with good contrast.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>24. Deep Blue Green</strong><code>#235D6E</code></div>
+      </article>
+
+      <article class="option" style="background:#1F5668;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Bold, calm, and close to deep teal-blue.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>25. Storm Teal</strong><code>#1F5668</code></div>
+      </article>
+
+      <article class="option" style="background:#1B4E60;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Dramatic blue-green. Very strong background.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>26. Deep Harbor</strong><code>#1B4E60</code></div>
+      </article>
+
+      <article class="option" style="background:#174657;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Dark and rich, almost blue-black teal.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>27. Night Teal</strong><code>#174657</code></div>
+      </article>
+
+      <article class="option" style="background:#214F59;">
+        <div class="sample-card">
+          <h2>Pet Portraits</h2>
+          <p>Muted blue-green. Dark but softer than Night Teal.</p>
+          <span class="button">Commission a Piece</span>
+        </div>
+        <div class="label"><strong>28. Smoky Blue Green</strong><code>#214F59</code></div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

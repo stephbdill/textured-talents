@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commission a Piece — Textured Talent | Stephanie Dill</title>
+  <meta name="description" content="Commission a custom pet portrait, mural, or shadow box from Stephanie Dill. Tell her about your pet or your space.">
+  <link rel="stylesheet" href="assets/css/style.css?v=all-night-teal">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="brand" href="index.html?v=all-night-teal">Textured <span>Talent</span></a>
+    <nav>
+      <a href="index.html?v=all-night-teal">Home</a>
+      <a href="pet-portraits.html?v=all-night-teal">Pet Portraits</a>
+      <a href="murals.html?v=all-night-teal">Murals</a>
+      <a href="shadow-boxes.html?v=all-night-teal">Shadow Boxes</a>
+      <a href="fine-art.html?v=all-night-teal">Fine Art</a>
+      <a href="available-works.html?v=all-night-teal">Available Works</a>
+      <a href="about.html?v=all-night-teal">About</a>
+      <a href="commission.html?v=all-night-teal" class="cta active">Commission a Piece</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-intro">
+    <h1>Let's Make Something for You</h1>
+    <p>Contact for pricing — every piece is custom, so timing and cost depend on the project.</p>
+  </section>
+
+  <!-- Netlify form: works automatically once deployed to Netlify (no backend needed).
+       The hidden form-name input and data-netlify attribute are required. -->
+  <div class="form-wrap">
+    <form name="commission" method="POST" data-netlify="true" enctype="multipart/form-data">
+      <input type="hidden" name="form-name" value="commission">
+
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-row">
+        <label for="type">Project type</label>
+        <select id="type" name="project-type" required>
+          <option value="">Choose one…</option>
+          <option>Pet Portrait</option>
+          <option>Mural</option>
+          <option>Shadow Box</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="details">Details</label>
+        <textarea id="details" name="details" placeholder="Tell me about your pet, your wall, or your idea…"></textarea>
+      </div>
+
+      <div class="form-row">
+        <label for="photo">Photo (optional)</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+      </div>
+
+      <div class="center" style="margin:1.4rem 0 0;">
+        <button class="btn" type="submit">Send My Request</button>
+      </div>
+    </form>
+    <p class="form-note">Tell me about your pet or your space, and I'll be in touch about timing and pricing.</p>
+  </div>
+
+  <p class="page-note" style="margin-top:2rem;">
+    You can also reach Stephanie on
+    <a href="https://www.facebook.com/stephanie.dill.2025" target="_blank" rel="noopener">Facebook</a>.
+  </p>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>© Stephanie Dill · Rohnert Park, CA</span>
+    <span>
+      <a href="https://www.facebook.com/stephanie.dill.2025" target="_blank" rel="noopener">Facebook</a>
+      &nbsp;·&nbsp;
+      <a href="commission.html?v=all-night-teal">Commission a Piece</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+// If arriving from an "Inquire" link (?piece=Title), pre-fill the form
+(function () {
+  var piece = new URLSearchParams(window.location.search).get('piece');
+  if (!piece) return;
+  var details = document.getElementById('details');
+  var type = document.getElementById('type');
+  if (details) details.value = 'I\'m interested in "' + piece + '" — is it still available?';
+  if (type) type.value = 'Other';
+})();
+</script>
+</body>
+</html>
