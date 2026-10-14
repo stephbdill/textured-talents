@@ -14,7 +14,7 @@ window.ART = [
     "file": "mixed/chameleon-rainbow.jpg",
     "title": "Rainbow Chameleon",
     "category": "Fine Art",
-    "status": "available",
+    "status": "sold",
     "price": null
   },
   {
