@@ -515,7 +515,8 @@ window.ART = [
     "price": 750,
     "status": "available",
     "alt": "Long-haired gray cat reclining on orange bedding in front of white closet doors",
-    "description": "A long-haired gray cat reclines on orange bedding in front of pale closet doors."
+    "description": "A long-haired gray cat reclines on orange bedding in front of pale closet doors.",
+    "materials": "Chalk pastel, watercolor, acrylic, oil, markers, and canvas"
   }
 ];
 
