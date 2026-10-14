@@ -531,14 +531,17 @@ window.ART = [
   },
   {
     "file": "pets/red-heeler-before-after.jpg",
-    "title": "Red Heeler",
+    "title": "Cooper",
     "category": "Pet Portraits",
     "status": "sold",
     "price": null,
-    "soldPrice": 600,
-    "dimensions": "20 × 18 in",
-    "materials": "Acrylic, oil pastels, felt tips, and pens on canvas",
-    "description": "A red heeler's reclining pose is carried from a reference photo into a portrait with bold, textured markings."
+    "soldPrice": 800,
+    "dimensions": "36 × 42 in",
+    "materials": "Watercolor, oil pastel, felt pens, acrylic, and chalk on canvas",
+    "description": "A red heeler's reclining pose is carried from a reference photo into a portrait with bold, textured markings.",
+    "aliases": [
+      "Red Heeler"
+    ]
   },
   {
     "file": "pets/angie-before-after.jpg",
@@ -633,6 +636,20 @@ window.ART = [
     "soldPrice": 400,
     "materials": "Acrylic on canvas",
     "description": "Two small dogs appear in separate reference photos alongside their individual painted portraits. The two pieces sold together as a set."
+  },
+  {
+    "file": "pets/orange-tabby-portrait.jpg",
+    "title": "The Orange Tabby",
+    "aliases": [
+      "Orange Tabby"
+    ],
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 600,
+    "dimensions": "24 × 30 in",
+    "materials": "Oil pastel, chalk, acrylic, oil, watercolor pens, fine-tip pens, and pastel chalk",
+    "description": "An orange-and-white cat reclines with its fluffy tail curved along the foreground."
   }
 ];
 
