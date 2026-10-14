@@ -375,7 +375,7 @@ window.ART = [
     "title": "The Village",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": 500,
+    "price": 1500,
     "alt": "The Village: tall shadow box filled with miniature houses, flowers and a red airplane overhead"
   },
   {
@@ -383,7 +383,7 @@ window.ART = [
     "title": "Napoleon Dynamite",
     "category": "Fine Art",
     "status": "available",
-    "price": 300,
+    "price": 1000,
     "alt": "Napoleon Dynamite: an orange dog facing a green dinosaur in a framed scene"
   },
   {
@@ -407,7 +407,7 @@ window.ART = [
     "file": "pets/emma-portrait.jpg",
     "title": "Lounging",
     "category": "Pet Portraits",
-    "price": 750,
+    "price": 700,
     "status": "available",
     "alt": "Long-haired gray cat reclining on orange bedding in front of white closet doors"
   }
