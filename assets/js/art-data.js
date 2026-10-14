@@ -550,6 +550,39 @@ window.ART = [
     "dimensions": "12 × 16 in",
     "materials": "Oil pastels, markers, acrylic, and watercolor on canvas",
     "description": "A pale orange cat's reference photo accompanies a portrait placing the seated cat among colorful flowers beneath a blue sky."
+  },
+  {
+    "file": "pets/cheryl-before-after.jpg",
+    "title": "Cheryl's Horse",
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 400,
+    "dimensions": "12 × 20 in",
+    "materials": "Acrylic and oil on canvas",
+    "description": "A horse's broad white blaze is echoed in a textured portrait beside its beachside reference photo."
+  },
+  {
+    "file": "pets/tova-before-after.jpg",
+    "title": "Tova",
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 150,
+    "dimensions": "8 × 10 in",
+    "materials": "Acrylic on canvas",
+    "description": "A green parrot's bright orange beak and layered feathers carry from a reference photo into a vivid blue-background portrait. One of Stephanie's early pieces."
+  },
+  {
+    "file": "pets/angel-before-after.jpg",
+    "title": "Angel",
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 400,
+    "dimensions": "Approximately 20 × 24 in",
+    "materials": "Oil and acrylic on canvas",
+    "description": "A tan-and-white dog in a dark harness stands in a reference photo beside its full-body portrait."
   }
 ];
 
