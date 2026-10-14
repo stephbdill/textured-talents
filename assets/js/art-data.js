@@ -15,238 +15,272 @@ window.ART = [
     "title": "Rainbow Chameleon",
     "category": "Fine Art",
     "status": "sold",
-    "price": null
+    "price": null,
+    "description": "A rainbow-colored chameleon curls its tail above a branch, with bright dotted patterns standing out against a black background."
   },
   {
     "file": "mixed/chameleon-copper-leaves.jpg",
     "title": "Copper Chameleon",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A multicolored chameleon peers between copper-colored leaves against a vivid green background."
   },
   {
     "file": "mixed/panda-cub-bamboo.jpg",
     "title": "Panda Cub",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A panda cub peers through layered bamboo forms, its white face framed by a dark background."
   },
   {
     "file": "mixed/panda-pair-climbing.jpg",
     "title": "Climbing Pandas",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Two pandas appear at different heights among tall bamboo stems and pointed leaves against black."
   },
   {
     "file": "mixed/panda-resting.jpg",
     "title": "Resting Panda",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A panda rests its head on a horizontal branch beneath a canopy of angular bamboo leaves."
   },
   {
     "file": "mixed/panda-paw.jpg",
     "title": "Hello Panda",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A panda looks out from behind bamboo, with one paw resting beside its face."
   },
   {
     "file": "mixed/panda-collage.jpg",
     "title": "Panda Collage",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A panda leans forward through overlapping bamboo stems, its pale body contrasting with the dark background."
   },
   {
     "file": "mixed/panda-red-mini.jpg",
     "title": "Panda on Red",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A small seated panda appears beneath tall bamboo stems against a rich red background."
   },
   {
     "file": "mixed/panda-pink.jpg",
     "title": "Panda in Pink",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A panda peeks from the lower corner of a pink-red scene filled with layered bamboo stems and leaves."
   },
   {
     "file": "mixed/panda-log-red.jpg",
     "title": "Panda on a Log",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A panda rests its head along a broad branch beneath tall bamboo on a streaked red background."
   },
   {
     "file": "mixed/panda-triptych-wall.jpg",
     "title": "Panda Triptych",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Three red-background panda artworks form a wall grouping, linked by their layered bamboo motifs."
   },
   {
     "file": "mixed/lemur-teal.jpg",
     "title": "Lemur on Teal",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A yellow-eyed lemur looks forward through tall bamboo forms against a bright teal background."
   },
   {
     "file": "mixed/sifaka-lemur-turquoise.jpg",
     "title": "Sifaka",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A white-furred lemur with a dark face peeks from the base of tall bamboo against turquoise."
   },
   {
     "file": "mixed/lemur-pair-blue.jpg",
     "title": "Lemurs on Blue",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Two lemur faces peer between slender bamboo stems at opposite ends of a deep blue scene."
   },
   {
     "file": "mixed/lemur-faces-teal.jpg",
     "title": "Peekaboo Lemurs",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Two wide-eyed lemurs peek through an overlapping lattice of bamboo against teal green."
   },
   {
     "file": "mixed/lemur-green.jpg",
     "title": "Lemur on Green",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A dark-faced lemur with bright yellow eyes emerges from layered bamboo against green."
   },
   {
     "file": "mixed/deer-bamboo-blue.jpg",
     "title": "Deer in Bamboo",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A deer's face appears between tall, slender bamboo forms against a deep blue background."
   },
   {
     "file": "mixed/deer-flowers.jpg",
     "title": "Deer & Flowers",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A deer peers through a dense arrangement of raised flower stems and curled blossoms against blue."
   },
   {
     "file": "mixed/giraffes-turquoise.jpg",
     "title": "Giraffes on Turquoise",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Two giraffe heads angle toward one another against a swirling turquoise background."
   },
   {
     "file": "mixed/koi-fish.jpg",
     "title": "Koi",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Colorful koi curve among long green water plants against a flowing turquoise background."
   },
   {
     "file": "mixed/red-horse-painting.jpg",
     "title": "Red Horse",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A crimson horse faces forward, its dark mane and mottled body standing out against warm orange-brown tones."
   },
   {
     "file": "mixed/horse-study-painting.jpg",
     "title": "Horse Study",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A horse lowers its head in a softly textured study of gray, brown and cream."
   },
   {
     "file": "mixed/gold-horse-abstract.jpg",
     "title": "Klimpt Art",
     "category": "Fine Art",
     "status": "available",
-    "price": 150
+    "price": 150,
+    "description": "A stylized horse's head fills a gold-colored composition of bright geometric blocks and dotted patterns."
   },
   {
     "file": "mixed/tree-spirit-painting.jpg",
     "title": "Tree Spirit",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A figure sits within a branching tree, surrounded by green foliage above a network of exposed roots."
   },
   {
     "file": "mixed/horse-stable-cardboard.jpg",
     "title": "Stable Window",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A horse looks over a stable door framed by ridged siding, with a dark window behind its pale mane."
   },
   {
     "file": "mixed/bastet-cat-gold.jpg",
     "title": "Bastet",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A seated black cat with a decorative collar appears before layered pyramids against a gold-colored background."
   },
   {
     "file": "mixed/cave-horse-framed.jpg",
     "title": "Cave Horse",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A dark-outlined horse crosses a rusty orange field marked with rough lines and mottled textures."
   },
   {
     "file": "mixed/cave-aurochs-framed.jpg",
     "title": "Aurochs",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Horned animals overlap across a rusty orange background, with sweeping black outlines and pale patterned bodies."
   },
   {
     "file": "mixed/cat-face-purple.jpg",
     "title": "Cat Face I",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A close-up cat face pairs vivid blue eyes with purple, black and warm brown markings."
   },
   {
     "file": "mixed/cat-face-red.jpg",
     "title": "Cat Face II",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Yellow-green eyes shine from a close-up cat face painted in saturated red and orange."
   },
   {
     "file": "mixed/cat-face-blue.jpg",
     "title": "Cat Face III",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A black-and-white cat faces forward with yellow eyes, a red nose and sharply contrasting whiskers."
   },
   {
     "file": "mixed/cat-face-teal-eyes.jpg",
     "title": "Cat Face IV",
     "category": "Fine Art",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "Turquoise-green eyes stand out from a dark cat face accented with purple, pink and tan."
   },
   {
     "file": "mixed/mural-sunflower.jpg",
     "title": "Sunflower Mural",
     "category": "Murals",
     "status": "commission",
-    "price": null
+    "price": null,
+    "description": "An oversized sunflower spreads red-orange and yellow petals around a densely patterned circular center on a teal wall."
   },
   {
     "file": "mixed/mural-bamboo.jpg",
     "title": "Bamboo Mural",
     "category": "Murals",
     "status": "commission",
-    "price": null
+    "price": null,
+    "description": "Tall green bamboo stems and sweeping dark leaves rise across a warm beige wall."
   },
   {
     "file": "boxes/shadowbox-miniature-town.jpg",
@@ -259,7 +293,8 @@ window.ART = [
     "soldPrice": 550,
     "category": "Shadow Boxes",
     "status": "sold",
-    "price": null
+    "price": null,
+    "description": "Miniature buildings and colorful storefront signs crowd a narrow town scene, with greenery tucked between the structures."
   },
   {
     "file": "boxes/shadowbox-mountain-village.jpg",
@@ -369,35 +404,44 @@ window.ART = [
     "title": "Cat & Mouse in Red",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": null
+    "price": 100,
+    "dimensions": "3 × 6 in",
+    "materials": "Yarn, wood, acrylic, laminate, leather, and watercolor",
+    "description": "Two miniature mice sit beside yellow cheese pieces and green yarn in a red shadow box. A cat peers through an opening in the fish-patterned backdrop."
   },
   {
     "file": "boxes/shadowbox-cat-and-mouse-green.jpg",
     "title": "Cat & Mouse in Green",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": null
+    "price": 100,
+    "description": "A cat's face peers from a blue patterned backdrop behind a pink mouse, cheese pieces and a loose coil of yarn inside a green frame.",
+    "dimensions": "3 × 6 in",
+    "materials": "Yarn, wood, acrylic, laminate, leather, and watercolor"
   },
   {
     "file": "boxes/shadowbox-honeybee-hive.jpg",
     "title": "The Hive",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A large bee rests against an open honeycomb pattern above rounded hive forms inside a gold-colored shadow box."
   },
   {
     "file": "boxes/shadowbox-buddha-gemstones.jpg",
     "title": "Buddha & Gems",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": null
+    "price": null,
+    "description": "A small seated Buddha figure rests before rows of round translucent stones, with polished stones arranged at its feet."
   },
   {
     "file": "boxes/shadowbox-asian-garden.jpg",
     "title": "Enlightenment",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": 150
+    "price": 150,
+    "description": "A dark elephant, miniature towers and layered plant forms fill a garden scene framed in pink and cream."
   },
   {
     "file": "pets/terrier-before-after.jpg",
@@ -406,7 +450,8 @@ window.ART = [
     "status": "sold",
     "price": null,
     "alt": "White dog on a car seat, reference photo above its painted portrait",
-    "soldPrice": 400
+    "soldPrice": 400,
+    "description": "A white dog's reference photo appears above its painted portrait, echoing its relaxed pose on a dark car seat."
   },
   {
     "file": "boxes/elephant-tree-shadowbox.jpg",
@@ -415,7 +460,8 @@ window.ART = [
     "status": "sold",
     "price": null,
     "soldPrice": 100,
-    "alt": "Black elephant figurine beneath a painted tree, with stones inside a wooden shadow box"
+    "alt": "Black elephant figurine beneath a painted tree, with stones inside a wooden shadow box",
+    "description": "A dark elephant figurine stands beneath a spreading tree image, with smooth dark stones lining the base of the wooden box."
   },
   {
     "file": "boxes/the-village.jpg",
@@ -425,7 +471,8 @@ window.ART = [
     "category": "Shadow Boxes",
     "status": "available",
     "price": 1500,
-    "alt": "The Village: tall shadow box filled with miniature houses, flowers and a red airplane overhead"
+    "alt": "The Village: tall shadow box filled with miniature houses, flowers and a red airplane overhead",
+    "description": "Rows of colorful miniature buildings, flowers and pathways fill a tall village scene beneath a small red airplane."
   },
   {
     "file": "mixed/napoleon-dynamite.jpg",
@@ -433,7 +480,8 @@ window.ART = [
     "category": "Fine Art",
     "status": "available",
     "price": 1000,
-    "alt": "Napoleon Dynamite: an orange dog facing a green dinosaur in a framed scene"
+    "alt": "Napoleon Dynamite: an orange dog facing a green dinosaur in a framed scene",
+    "description": "An orange dog faces a green dinosaur pictured in a frame, bringing the two animals nose to nose."
   },
   {
     "file": "mixed/lemurs-bamboo-green.jpg",
@@ -442,7 +490,8 @@ window.ART = [
     "status": "sold",
     "price": null,
     "alt": "Three ring-tailed lemurs among raised bamboo stems on a green painted background",
-    "soldPrice": 350
+    "soldPrice": 350,
+    "description": "Three ring-tailed lemurs peek and climb among raised bamboo stems against a streaked green background."
   },
   {
     "file": "mixed/couch-potato.jpg",
@@ -450,7 +499,8 @@ window.ART = [
     "category": "Fine Art",
     "status": "available",
     "price": 400,
-    "alt": "Couch Potato: a cheetah reclining on a green and cream striped couch beneath a lantern"
+    "alt": "Couch Potato: a cheetah reclining on a green and cream striped couch beneath a lantern",
+    "description": "A spotted cat reclines on a green-and-cream striped sofa beneath a glowing wall lantern."
   },
   {
     "file": "pets/emma-portrait.jpg",
@@ -458,7 +508,8 @@ window.ART = [
     "category": "Pet Portraits",
     "price": 750,
     "status": "available",
-    "alt": "Long-haired gray cat reclining on orange bedding in front of white closet doors"
+    "alt": "Long-haired gray cat reclining on orange bedding in front of white closet doors",
+    "description": "A long-haired gray cat reclines on orange bedding in front of pale closet doors."
   }
 ];
 

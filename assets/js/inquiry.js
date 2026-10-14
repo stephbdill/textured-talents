@@ -19,7 +19,7 @@
   }
   if (requestedArtwork && (requestedArtwork.description || requestedArtwork.dimensions || requestedArtwork.materials)) {
     var artworkDetails = document.createElement('p');
-    artworkDetails.textContent = [requestedArtwork.description, requestedArtwork.dimensions ? "Size: " + requestedArtwork.dimensions : "", requestedArtwork.materials ? 'Materials: ' + requestedArtwork.materials : ''].filter(Boolean).join(' · ');
+    artworkDetails.textContent = [requestedArtwork.description, requestedArtwork.status === 'available' && typeof requestedArtwork.price === 'number' ? 'Price: $' + requestedArtwork.price.toLocaleString('en-US') : '', requestedArtwork.dimensions ? "Size: " + requestedArtwork.dimensions : "", requestedArtwork.materials ? 'Materials: ' + requestedArtwork.materials : ''].filter(Boolean).join(' · ');
     document.getElementById('contact-title').insertAdjacentElement('afterend', artworkDetails);
   }
   details.addEventListener('input', updateEmail);
