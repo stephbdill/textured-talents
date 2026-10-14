@@ -424,24 +424,30 @@ window.ART = [
     "title": "The Hive",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": null,
-    "description": "A large bee rests against an open honeycomb pattern above rounded hive forms inside a gold-colored shadow box."
+    "price": 65,
+    "description": "A large bee rests against an open honeycomb pattern above rounded hive forms inside a gold-colored shadow box.",
+    "dimensions": "3 × 2.5 × 2.5 in",
+    "materials": "Cardboard, acrylic paint, brass, and wood"
   },
   {
     "file": "boxes/shadowbox-buddha-gemstones.jpg",
     "title": "Buddha & Gems",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": null,
-    "description": "A small seated Buddha figure rests before rows of round translucent stones, with polished stones arranged at its feet."
+    "price": 80,
+    "description": "A small seated Buddha figure rests before rows of round translucent stones, with polished stones arranged at its feet.",
+    "dimensions": "2 × 2.5 in",
+    "materials": "Wood, glass, brass, and different types of rocks/gems"
   },
   {
     "file": "boxes/shadowbox-asian-garden.jpg",
     "title": "Enlightenment",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": 150,
-    "description": "A dark elephant, miniature towers and layered plant forms fill a garden scene framed in pink and cream."
+    "price": 200,
+    "description": "A dark elephant, miniature towers and layered plant forms fill a garden scene framed in pink and cream.",
+    "dimensions": "6 × 8 in",
+    "materials": "Bark, velvet, tiger lilies, succulents, plastic, watercolor, acrylic, rocks, wood, brass"
   },
   {
     "file": "pets/terrier-before-after.jpg",
