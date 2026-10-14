@@ -623,6 +623,16 @@ window.ART = [
     "dimensions": "11 × 17 in",
     "materials": "Oil, acrylic, and oil pastel on canvas",
     "description": "A black pug wears a small hat and bright patterned scarf in a portrait paired with its reference photo."
+  },
+  {
+    "file": "pets/paul-pups-before-after.jpg",
+    "title": "Paul's Pups",
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 400,
+    "materials": "Acrylic on canvas",
+    "description": "Two small dogs appear in separate reference photos alongside their individual painted portraits. The two pieces sold together as a set."
   }
 ];
 
