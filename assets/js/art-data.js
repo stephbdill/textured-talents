@@ -407,7 +407,7 @@ window.ART = [
     "file": "pets/emma-portrait.jpg",
     "title": "Lounging",
     "category": "Pet Portraits",
-    "price": 450,
+    "price": 750,
     "status": "available",
     "alt": "Long-haired gray cat reclining on orange bedding in front of white closet doors"
   }
