@@ -7,7 +7,7 @@
     var subject = piece ? 'Artwork inquiry: ' + piece.replace(/[\r\n]/g, ' ') : 'Artwork or commission inquiry';
     emailLink.href = 'mailto:stephbdill@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(details.value);
   }
-  var requestedArtwork = (window.ART || []).find(function (art) { return piece && (art.title === piece || art.file === piece || art.alt === piece); });
+  var requestedArtwork = (window.ART || []).find(function (art) { return piece && (art.title === piece || art.file === piece || art.alt === piece || (art.aliases || []).includes(piece)); });
   if (requestedArtwork && requestedArtwork.status === 'sold') {
     document.getElementById('inquiry-heading').textContent = 'This artwork has sold';
     document.getElementById('contact-title').textContent = 'Discuss a new commission';
@@ -16,6 +16,11 @@
     document.getElementById('inquiry-heading').textContent = 'Ask about ' + piece;
     document.getElementById('contact-title').textContent = 'Bring this original home.';
     details.value = 'Hello Stephanie, I’m interested in "' + piece + '". Is it available? Could you share its price, dimensions, materials, and pickup or delivery options?';
+  }
+  if (requestedArtwork && (requestedArtwork.dimensions || requestedArtwork.materials)) {
+    var artworkDetails = document.createElement('p');
+    artworkDetails.textContent = [requestedArtwork.dimensions, requestedArtwork.materials ? 'Materials: ' + requestedArtwork.materials : ''].filter(Boolean).join(' · ');
+    document.getElementById('contact-title').insertAdjacentElement('afterend', artworkDetails);
   }
   details.addEventListener('input', updateEmail);
   updateEmail();

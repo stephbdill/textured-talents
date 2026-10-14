@@ -250,9 +250,11 @@ window.ART = [
   },
   {
     "file": "boxes/shadowbox-miniature-town.jpg",
-    "title": "The Little Town",
+    "title": "Restaurantville",
+    "aliases": ["The Little Town"],
+    "soldPrice": 550,
     "category": "Shadow Boxes",
-    "status": "available",
+    "status": "sold",
     "price": null
   },
   {
@@ -366,13 +368,16 @@ window.ART = [
     "file": "boxes/elephant-tree-shadowbox.jpg",
     "title": "Bonsai",
     "category": "Shadow Boxes",
-    "status": "available",
-    "price": 35,
+    "status": "sold",
+    "price": null,
+    "soldPrice": 100,
     "alt": "Black elephant figurine beneath a painted tree, with stones inside a wooden shadow box"
   },
   {
     "file": "boxes/the-village.jpg",
     "title": "The Village",
+    "dimensions": "22 × 40 in",
+    "materials": "Cardboard, wood, metal, rocks, plants, tiger lilies, plastic, watercolor, oil pastel, acrylic, glue, cellophane, and markers",
     "category": "Shadow Boxes",
     "status": "available",
     "price": 1500,
@@ -479,6 +484,8 @@ function renderShop(containerId) {
         '<a href="assets/img/' + p.file + '" target="_blank">' +
         '<img src="assets/img/' + p.file + '" alt="' + (p.alt || p.title) + '" loading="lazy"></a>' +
         '<figcaption><strong>' + p.title + '</strong><br>' +
+        (p.dimensions ? p.dimensions + '<br>' : '') +
+        (p.materials ? '<span class="art-materials">Materials: ' + p.materials + '</span><br>' : '') +
         '<span class="price-line">' + artPriceLabel(p) +
         ' · <a href="commission.html?v=collector-20260911&piece=' + encodeURIComponent(p.title) + '">Ask about this piece →</a></span></figcaption>';
       grid.appendChild(fig);
