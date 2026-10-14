@@ -583,6 +583,46 @@ window.ART = [
     "dimensions": "Approximately 20 × 24 in",
     "materials": "Oil and acrylic on canvas",
     "description": "A tan-and-white dog in a dark harness stands in a reference photo beside its full-body portrait."
+  },
+  {
+    "file": "pets/marlo-before-after.jpg",
+    "title": "Charlie",
+    "aliases": [
+      "Marlo"
+    ],
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 200,
+    "dimensions": "10 × 12 in",
+    "materials": "Oil pastel on canvas",
+    "description": "A dachshund's close-up reference photo accompanies a portrait using blue, orange and brown shapes to capture its face."
+  },
+  {
+    "file": "pets/lauren-before-after.jpg",
+    "title": "Lauren's Spaniel",
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 300,
+    "dimensions": "11 × 17 in",
+    "materials": "Oil pastel and acrylic on canvas",
+    "description": "A cream-colored dog's round dark eyes and soft ears are echoed in a close-up portrait beside its reference photo."
+  },
+  {
+    "file": "pets/lauren-pug-before-after.jpg",
+    "title": "Mr. T",
+    "aliases": [
+      "Lauren's Pug",
+      "Lauren's Pub"
+    ],
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 300,
+    "dimensions": "11 × 17 in",
+    "materials": "Oil, acrylic, and oil pastel on canvas",
+    "description": "A black pug wears a small hat and bright patterned scarf in a portrait paired with its reference photo."
   }
 ];
 
