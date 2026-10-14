@@ -429,3 +429,39 @@ footer {
 }
 footer a { color: var(--sky); text-decoration: none; }
 footer a:hover { text-decoration: underline; }
+
+/* Collector presentation: preserve the artwork, improve hierarchy and legibility. */
+.eyebrow { color: #f2b28f; font-size: .875rem; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 1rem; }
+.hero h1 { font-size: clamp(2.4rem, 4.5vw, 3.65rem); line-height: 1.08; }
+.hero-actions, .inquiry-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem; }
+.text-link { color: #fff; text-underline-offset: .3em; }
+.hero-art img { transform: none; border-radius: 3px; }
+.art-caption { color: var(--on-page-soft); font-size: .875rem; margin-top: .85rem; }
+.collection-note { margin-top: 1rem; }
+.inquiry-card h2 { color: var(--charcoal); margin: 0 0 1rem; }
+.inquiry-card .eyebrow { color: var(--terracotta-dark); }
+.inquiry-card label { margin-top: 1.5rem; }
+.inquiry-actions { margin-top: 1rem; }
+.inquiry-card textarea { min-height: 170px; }
+.inquiry-card .form-note { text-align: left; }
+#shop .art-card { display: flex; flex-direction: column; padding: 1rem; border-radius: 4px; }
+#shop .art-card > a { display: flex; align-items: center; justify-content: center; min-height: 310px; background: #eee8dc; }
+#shop .art-card img { width: 100%; height: 310px; object-fit: contain; border-radius: 0; }
+#shop .art-card figcaption { margin-top: 1.2rem; }
+#shop .art-card figcaption strong { font-size: 1.25rem; }
+#shop .price-line a { display: block; margin-top: .45rem; color: #874024; min-height: 44px; padding: .5rem; }
+.buy-path-label, .buy-paths .eyebrow { font-size: .875rem; }
+:focus-visible { outline: 3px solid #f2b28f; outline-offset: 4px; }
+.skip-link { position: fixed; top: .5rem; left: 1rem; z-index: 30; padding: .75rem; background: #fff; color: #174657; transform: translateY(-200%); }
+.skip-link:focus { transform: translateY(0); }
+@media (max-width: 760px) {
+  header { position: static; }
+  .header-inner { gap: .8rem; }
+  nav { width: 100%; gap: .2rem; }
+  nav a { min-height: 44px; display: inline-flex; align-items: center; padding: .5rem .6rem; }
+  .hero { gap: 1.8rem; }
+  .form-wrap { padding: 1.4rem; }
+  .gallery { grid-template-columns: repeat(auto-fill, minmax(min(100%,270px),1fr)); }
+  .hero-actions .btn { width: 100%; text-align: center; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
