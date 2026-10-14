@@ -335,21 +335,34 @@ window.ART = [
     "title": "The Pig's Bedroom",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": null
+    "price": 100,
+    "materials": "Wood, plastic, acrylic paint, rock, rubber, suede, watercolor, laminate, and cardboard",
+    "description": "A sleeping piglet rests on a purple cushion in a pink miniature room. A framed pig portrait, a small lamp, a potted tree and a rounded stone surround it."
   },
   {
     "file": "boxes/shadowbox-horse-red-barn.jpg",
     "title": "Red Barn",
     "category": "Shadow Boxes",
-    "status": "available",
-    "price": null
+    "status": "sold",
+    "price": null,
+    "soldPrice": 150,
+    "dimensions": "3 × 8 in",
+    "materials": "Tiger lilies, wood, acrylic, watercolor pens, and porcelain rocks",
+    "description": "A horse stands behind a miniature fence with a red barn pictured in the background. Dried plants and stones cover the foreground inside a red wooden frame."
   },
   {
     "file": "boxes/shadowbox-horse-gold-barn.jpg",
-    "title": "Gold Barn",
+    "title": "Farm Life",
     "category": "Shadow Boxes",
-    "status": "available",
-    "price": null
+    "status": "sold",
+    "price": null,
+    "aliases": [
+      "Gold Barn"
+    ],
+    "soldPrice": 100,
+    "dimensions": "3 × 6 in",
+    "materials": "Tiger lilies, wood, acrylic, watercolor pens, and porcelain rocks",
+    "description": "A spotted horse stands beside a miniature fence in front of a red-roofed barn picture. Dried plants, green foliage and small vessels fill the scene inside a gold-colored frame."
   },
   {
     "file": "boxes/shadowbox-cat-and-mouse-red.jpg",
