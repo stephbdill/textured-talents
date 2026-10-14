@@ -31,32 +31,10 @@ window.ART = [
     "title": "Climbing Pandas",
     "category": "Fine Art",
     "status": "available",
-    "price": null,
-    "description": "Two pandas appear at different heights among tall bamboo stems and pointed leaves against black."
-  },
-  {
-    "file": "mixed/panda-red-mini.jpg",
-    "title": "Panda on Red",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A small seated panda appears beneath tall bamboo stems against a rich red background."
-  },
-  {
-    "file": "mixed/panda-pink.jpg",
-    "title": "Panda in Pink",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A panda peeks from the lower corner of a pink-red scene filled with layered bamboo stems and leaves."
-  },
-  {
-    "file": "mixed/panda-log-red.jpg",
-    "title": "Panda on a Log",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A panda rests its head along a broad branch beneath tall bamboo on a streaked red background."
+    "price": 250,
+    "description": "Two pandas appear at different heights among tall bamboo stems and pointed leaves against black.",
+    "dimensions": "11 × 17 in",
+    "materials": "Cardboard and acrylic on canvas"
   },
   {
     "file": "mixed/panda-triptych-wall.jpg",
@@ -472,9 +450,11 @@ window.ART = [
     "title": "Couch Potato",
     "category": "Fine Art",
     "status": "available",
-    "price": 400,
+    "price": 1000,
     "alt": "Couch Potato: a cheetah reclining on a green and cream striped couch beneath a lantern",
-    "description": "A spotted cat reclines on a green-and-cream striped sofa beneath a glowing wall lantern."
+    "description": "A spotted cat reclines on a green-and-cream striped sofa beneath a glowing wall lantern.",
+    "dimensions": "2 × 3 ft (24 × 36 in)",
+    "materials": "Pastel chalk, acrylic, oil, pens, markers, and watercolor on canvas"
   },
   {
     "file": "pets/emma-portrait.jpg",
