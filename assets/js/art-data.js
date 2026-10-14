@@ -299,22 +299,36 @@ window.ART = [
     "file": "boxes/shadowbox-halloween.jpg",
     "title": "Halloween",
     "category": "Shadow Boxes",
-    "status": "available",
-    "price": null
+    "status": "sold",
+    "price": null,
+    "soldPrice": 350,
+    "dimensions": "Approximately 16 × 24 in",
+    "materials": "Pens, plastic, acrylic paint, markers, glue, Styrofoam, rubber spray paint, glass, laminate, and wood",
+    "description": "Eyes, skeletal hands, bones and orange pumpkins fill a dark shadow box around a framed eye image. A large black spider stretches across the blue-and-black scene."
   },
   {
     "file": "boxes/shadowbox-dinosaurs.jpg",
     "title": "Dinosaur World",
     "category": "Shadow Boxes",
-    "status": "available",
-    "price": null
+    "status": "sold",
+    "price": null,
+    "soldPrice": 200,
+    "dimensions": "12 × 6 × 18 in",
+    "materials": "Plastic, rock, cardboard, glue, acorns, tiger lilies, and plants",
+    "description": "Dinosaur figures stand on layered rock ledges among green plants and orange flowers. Corrugated cardboard forms ridges behind the scene inside a pale wooden frame."
   },
   {
     "file": "boxes/shadowbox-tiger-parlor.jpg",
     "title": "Monatiger",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": 50
+    "price": 100,
+    "materials": "Wood, plastic, acrylic paint, rock, rubber, suede, watercolor, laminate, and cardboard",
+    "description": "A tiger figurine faces a gold-framed tiger portrait in a red miniature room. A potted tree, floor lamp and another tiger picture complete the scene.",
+    "dimensions": "6 × 3 in",
+    "aliases": [
+      "Mona Tiger"
+    ]
   },
   {
     "file": "boxes/shadowbox-pig-bedroom.jpg",
