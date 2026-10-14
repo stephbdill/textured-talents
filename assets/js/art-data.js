@@ -20,11 +20,16 @@ window.ART = [
   },
   {
     "file": "mixed/chameleon-copper-leaves.jpg",
-    "title": "Copper Chameleon",
+    "title": "Shape Shifter",
     "category": "Fine Art",
     "status": "available",
-    "price": null,
-    "description": "A multicolored chameleon peers between copper-colored leaves against a vivid green background."
+    "price": 250,
+    "description": "A multicolored chameleon peers between copper-colored leaves against a vivid green background.",
+    "aliases": [
+      "Copper Chameleon"
+    ],
+    "dimensions": "11 × 17 in",
+    "materials": "Oil, acrylic, wood, cardboard, watercolor on canvas"
   },
   {
     "file": "mixed/panda-pair-climbing.jpg",
@@ -103,11 +108,16 @@ window.ART = [
   },
   {
     "file": "mixed/koi-fish.jpg",
-    "title": "Koi",
+    "title": "Three's Company",
     "category": "Fine Art",
     "status": "available",
-    "price": null,
-    "description": "Colorful koi curve among long green water plants against a flowing turquoise background."
+    "price": 450,
+    "description": "Colorful koi curve among long green water plants against a flowing turquoise background.",
+    "aliases": [
+      "Koi"
+    ],
+    "dimensions": "12 × 36 in",
+    "materials": "Acrylic, oil, and watercolor on canvas"
   },
   {
     "file": "mixed/red-horse-painting.jpg",
@@ -161,17 +171,21 @@ window.ART = [
     "file": "mixed/cave-horse-framed.jpg",
     "title": "Cave Horse",
     "category": "Fine Art",
-    "status": "available",
+    "status": "sold",
     "price": null,
-    "description": "A dark-outlined horse crosses a rusty orange field marked with rough lines and mottled textures."
+    "description": "A dark-outlined horse crosses a rusty orange field marked with rough lines and mottled textures. Sold together as the Lascaux pair for $400 total ($200 per work).",
+    "soldPrice": 200,
+    "saleNote": "Sold together as the Lascaux pair for $400 total ($200 per work)."
   },
   {
     "file": "mixed/cave-aurochs-framed.jpg",
     "title": "Aurochs",
     "category": "Fine Art",
-    "status": "available",
+    "status": "sold",
     "price": null,
-    "description": "Horned animals overlap across a rusty orange background, with sweeping black outlines and pale patterned bodies."
+    "description": "Horned animals overlap across a rusty orange background, with sweeping black outlines and pale patterned bodies. Sold together as the Lascaux pair for $400 total ($200 per work).",
+    "soldPrice": 200,
+    "saleNote": "Sold together as the Lascaux pair for $400 total ($200 per work)."
   },
   {
     "file": "mixed/cat-face-purple.jpg",
