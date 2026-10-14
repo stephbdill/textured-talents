@@ -251,6 +251,7 @@ window.ART = [
   {
     "file": "boxes/shadowbox-miniature-town.jpg",
     "title": "Restaurantville",
+    "dimensions": "12 × 20 in",
     "materials": "Cardboard, wood, metal, rocks, plants, tiger lilies, plastic, watercolor, oil pastel, acrylic, glue, cellophane, and markers",
     "aliases": ["The Little Town"],
     "soldPrice": 550,
