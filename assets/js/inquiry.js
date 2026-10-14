@@ -17,9 +17,9 @@
     document.getElementById('contact-title').textContent = 'Bring this original home.';
     details.value = 'Hello Stephanie, I’m interested in "' + piece + '". Is it available? Could you share its price, dimensions, materials, and pickup or delivery options?';
   }
-  if (requestedArtwork && (requestedArtwork.dimensions || requestedArtwork.materials)) {
+  if (requestedArtwork && (requestedArtwork.description || requestedArtwork.dimensions || requestedArtwork.materials)) {
     var artworkDetails = document.createElement('p');
-    artworkDetails.textContent = [requestedArtwork.dimensions, requestedArtwork.materials ? 'Materials: ' + requestedArtwork.materials : ''].filter(Boolean).join(' · ');
+    artworkDetails.textContent = [requestedArtwork.description, requestedArtwork.dimensions ? "Size: " + requestedArtwork.dimensions : "", requestedArtwork.materials ? 'Materials: ' + requestedArtwork.materials : ''].filter(Boolean).join(' · ');
     document.getElementById('contact-title').insertAdjacentElement('afterend', artworkDetails);
   }
   details.addEventListener('input', updateEmail);

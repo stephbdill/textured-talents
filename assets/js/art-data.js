@@ -253,7 +253,9 @@ window.ART = [
     "title": "Restaurantville",
     "dimensions": "12 × 20 in",
     "materials": "Cardboard, wood, metal, rocks, plants, tiger lilies, plastic, watercolor, oil pastel, acrylic, glue, cellophane, and markers",
-    "aliases": ["The Little Town"],
+    "aliases": [
+      "The Little Town"
+    ],
     "soldPrice": 550,
     "category": "Shadow Boxes",
     "status": "sold",
@@ -264,21 +266,34 @@ window.ART = [
     "title": "Mountain Village",
     "category": "Shadow Boxes",
     "status": "available",
-    "price": null
+    "price": 200,
+    "dimensions": "8 × 8 in",
+    "materials": "Cardboard, wood, metal, rocks, plants, tiger lilies, plastic, watercolor, oil pastel, acrylic, glue, cellophane, and markers",
+    "description": "Miniature houses sit among stones and purple flowers beneath layered mountain silhouettes. A pale wooden frame contains the village scene."
   },
   {
     "file": "boxes/shadowbox-coastal-village.jpg",
     "title": "Coastal Village",
     "category": "Shadow Boxes",
-    "status": "available",
-    "price": null
+    "status": "sold",
+    "price": null,
+    "soldPrice": 400,
+    "description": "Pale miniature buildings rise among green foliage and small orange flowers. Blue sky and layered hills form the backdrop inside a wooden frame.",
+    "dimensions": "12 × 18 in",
+    "materials": "Cardboard, wood, metal, rocks, plants, tiger lilies, plastic, watercolor, oil pastel, acrylic, glue, cellophane, and markers"
   },
   {
     "file": "boxes/shadowbox-farm-animals.jpg",
-    "title": "The Farm",
+    "title": "Touch of Italy",
     "category": "Shadow Boxes",
-    "status": "available",
-    "price": null
+    "status": "sold",
+    "price": null,
+    "aliases": [
+      "The Farm"
+    ],
+    "soldPrice": 200,
+    "materials": "Cardboard, wood, metal, rocks, plants, tiger lilies, plastic, watercolor, oil pastel, acrylic, glue, cellophane, and markers",
+    "description": "Miniature buildings and farm animals nestle among green foliage and dark stones. Mountain silhouettes rise behind the scene inside a warm-toned wooden frame."
   },
   {
     "file": "boxes/shadowbox-halloween.jpg",
@@ -486,7 +501,8 @@ function renderShop(containerId) {
         '<a href="assets/img/' + p.file + '" target="_blank">' +
         '<img src="assets/img/' + p.file + '" alt="' + (p.alt || p.title) + '" loading="lazy"></a>' +
         '<figcaption><strong>' + p.title + '</strong><br>' +
-        (p.dimensions ? p.dimensions + '<br>' : '') +
+        (p.description ? '<span class="art-description">' + p.description + '</span><br>' : '') +
+        (p.dimensions ? 'Size: ' + p.dimensions + '<br>' : '') +
         (p.materials ? '<span class="art-materials">Materials: ' + p.materials + '</span><br>' : '') +
         '<span class="price-line">' + artPriceLabel(p) +
         ' · <a href="commission.html?v=collector-20260911&piece=' + encodeURIComponent(p.title) + '">Ask about this piece →</a></span></figcaption>';
