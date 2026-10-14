@@ -27,44 +27,12 @@ window.ART = [
     "description": "A multicolored chameleon peers between copper-colored leaves against a vivid green background."
   },
   {
-    "file": "mixed/panda-cub-bamboo.jpg",
-    "title": "Panda Cub",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A panda cub peers through layered bamboo forms, its white face framed by a dark background."
-  },
-  {
     "file": "mixed/panda-pair-climbing.jpg",
     "title": "Climbing Pandas",
     "category": "Fine Art",
     "status": "available",
     "price": null,
     "description": "Two pandas appear at different heights among tall bamboo stems and pointed leaves against black."
-  },
-  {
-    "file": "mixed/panda-resting.jpg",
-    "title": "Resting Panda",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A panda rests its head on a horizontal branch beneath a canopy of angular bamboo leaves."
-  },
-  {
-    "file": "mixed/panda-paw.jpg",
-    "title": "Hello Panda",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A panda looks out from behind bamboo, with one paw resting beside its face."
-  },
-  {
-    "file": "mixed/panda-collage.jpg",
-    "title": "Panda Collage",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A panda leans forward through overlapping bamboo stems, its pale body contrasting with the dark background."
   },
   {
     "file": "mixed/panda-red-mini.jpg",
