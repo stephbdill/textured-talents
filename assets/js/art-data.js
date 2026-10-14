@@ -94,22 +94,6 @@ window.ART = [
     "description": "A dark-faced lemur with bright yellow eyes emerges from layered bamboo against green."
   },
   {
-    "file": "mixed/deer-bamboo-blue.jpg",
-    "title": "Deer in Bamboo",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A deer's face appears between tall, slender bamboo forms against a deep blue background."
-  },
-  {
-    "file": "mixed/deer-flowers.jpg",
-    "title": "Deer & Flowers",
-    "category": "Fine Art",
-    "status": "available",
-    "price": null,
-    "description": "A deer peers through a dense arrangement of raised flower stems and curled blossoms against blue."
-  },
-  {
     "file": "mixed/giraffes-turquoise.jpg",
     "title": "Giraffes on Turquoise",
     "category": "Fine Art",
