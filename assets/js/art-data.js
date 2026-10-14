@@ -517,6 +517,39 @@ window.ART = [
     "alt": "Long-haired gray cat reclining on orange bedding in front of white closet doors",
     "description": "A long-haired gray cat reclines on orange bedding in front of pale closet doors.",
     "materials": "Chalk pastel, watercolor, acrylic, oil, markers, and canvas"
+  },
+  {
+    "file": "pets/bell-before-after.jpg",
+    "title": "Bell",
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 550,
+    "dimensions": "Approximately 16 × 18 in",
+    "materials": "Acrylic and oil on canvas",
+    "description": "A gray lop-eared rabbit wears a pink bow in a reference photo paired with its dark-background portrait."
+  },
+  {
+    "file": "pets/red-heeler-before-after.jpg",
+    "title": "Red Heeler",
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 600,
+    "dimensions": "20 × 18 in",
+    "materials": "Acrylic, oil pastels, felt tips, and pens on canvas",
+    "description": "A red heeler's reclining pose is carried from a reference photo into a portrait with bold, textured markings."
+  },
+  {
+    "file": "pets/angie-before-after.jpg",
+    "title": "Angie",
+    "category": "Pet Portraits",
+    "status": "sold",
+    "price": null,
+    "soldPrice": 450,
+    "dimensions": "12 × 16 in",
+    "materials": "Oil pastels, markers, acrylic, and watercolor on canvas",
+    "description": "A pale orange cat's reference photo accompanies a portrait placing the seated cat among colorful flowers beneath a blue sky."
   }
 ];
 
