@@ -38,11 +38,15 @@ window.ART = [
   },
   {
     "file": "mixed/panda-triptych-wall.jpg",
-    "title": "Panda Triptych",
+    "title": "Panda Trio",
     "category": "Fine Art",
     "status": "available",
-    "price": null,
-    "description": "Three red-background panda artworks form a wall grouping, linked by their layered bamboo motifs."
+    "price": 400,
+    "description": "Three red-background panda artworks form a wall grouping, linked by their layered bamboo motifs. Offered together as a three-piece set.",
+    "aliases": [
+      "Panda Triptych"
+    ],
+    "materials": "Acrylic and cardboard on canvas"
   },
   {
     "file": "mixed/lemur-teal.jpg",
@@ -64,17 +68,22 @@ window.ART = [
     "file": "mixed/lemur-pair-blue.jpg",
     "title": "Lemurs on Blue",
     "category": "Fine Art",
-    "status": "available",
+    "status": "sold",
     "price": null,
-    "description": "Two lemur faces peer between slender bamboo stems at opposite ends of a deep blue scene."
+    "description": "Two lemur faces peer between slender bamboo stems at opposite ends of a deep blue scene.",
+    "soldPrice": 500,
+    "dimensions": "16 × 24 in",
+    "materials": "Cardboard and acrylic on canvas"
   },
   {
     "file": "mixed/lemur-faces-teal.jpg",
     "title": "Peekaboo Lemurs",
     "category": "Fine Art",
     "status": "available",
-    "price": null,
-    "description": "Two wide-eyed lemurs peek through an overlapping lattice of bamboo against teal green."
+    "price": 500,
+    "description": "Two wide-eyed lemurs peek through an overlapping lattice of bamboo against teal green.",
+    "dimensions": "16 × 24 in",
+    "materials": "Cardboard and acrylic on canvas"
   },
   {
     "file": "mixed/lemur-green.jpg",
