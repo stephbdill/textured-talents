@@ -303,6 +303,29 @@ h2 {
 .badge.sold { background: var(--terracotta); }
 .price-line { font-size: 0.9rem; color: var(--ink); }
 .price-line a { font-weight: 600; }
+.print-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+.art-card .print-options a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--deep-green);
+  border-radius: 4px;
+  color: var(--deep-green);
+  font-weight: 600;
+}
+.art-card .print-options a:hover,
+.art-card .print-options a:focus-visible {
+  background: var(--deep-green);
+  color: #fff;
+}
+#inquiry-steps[hidden] { display: none; }
 
 /* ---------- testimonial ---------- */
 .testimonial {

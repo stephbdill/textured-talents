@@ -615,7 +615,26 @@ function artPriceLabel(piece) {
   return 'Price on request';
 }
 
-/* Adds Sold/Available badges + price/inquire line to any gallery page */
+var PRINT_FORMATS = { paper: 'Paper Print', canvas: 'Canvas Print' };
+
+function addPrintOptions(card, piece, img) {
+  var caption = card.querySelector('figcaption');
+  if (!caption || caption.querySelector('.print-options')) return;
+  var title = piece?.title || caption.querySelector('strong')?.textContent || img.alt;
+  if (!title) return;
+  var options = document.createElement('div');
+  options.className = 'print-options';
+  Object.entries(PRINT_FORMATS).forEach(function ([format, label]) {
+    var link = document.createElement('a');
+    link.href = 'commission.html?' + new URLSearchParams({ piece: title, print: format });
+    link.textContent = 'Request ' + label;
+    link.setAttribute('aria-label', 'Request ' + label + ' of ' + title);
+    options.appendChild(link);
+  });
+  caption.appendChild(options);
+}
+
+/* Adds print requests and original availability to gallery cards. */
 function injectBadges() {
   var byFile = {};
   window.ART.forEach(function (p) { byFile[p.file] = p; });
@@ -623,9 +642,9 @@ function injectBadges() {
     var src = img.getAttribute('src') || '';
     var key = src.replace('assets/img/', '');
     var piece = byFile[key];
-    if (!piece || !['available', 'sold'].includes(piece.status)) return;
     var card = img.closest('.art-card');
-    if (!card || card.querySelector('.badge')) return; /* already badged (shop page) */
+    if (card.closest('[data-print-gallery]')) addPrintOptions(card, piece, img);
+    if (!piece || !['available', 'sold'].includes(piece.status) || card.querySelector('.badge')) return;
     var badge = document.createElement('span');
     badge.className = 'badge ' + piece.status;
     badge.textContent = piece.status === 'sold' ? 'Sold' : 'Available';
@@ -638,8 +657,9 @@ function injectBadges() {
         line.className = 'price-line';
         line.innerHTML = artPriceLabel(piece) +
           ' · <a href="commission.html?v=collector-20260911&piece=' + encodeURIComponent(piece.title) + '">Ask about this piece →</a>';
-        cap.appendChild(document.createElement('br'));
-        cap.appendChild(line);
+        var options = cap.querySelector('.print-options');
+        cap.insertBefore(document.createElement('br'), options);
+        cap.insertBefore(line, options);
       }
     }
   });
@@ -665,6 +685,7 @@ function renderShop(containerId) {
     root.appendChild(h);
     var grid = document.createElement('section');
     grid.className = 'gallery';
+    if (cat !== 'Shadow Boxes') grid.setAttribute('data-print-gallery', '');
     pieces.forEach(function (p) {
       var fig = document.createElement('figure');
       fig.className = 'art-card';
