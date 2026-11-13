@@ -617,7 +617,15 @@ function artPriceLabel(piece) {
 
 var PRINT_FORMATS = { paper: 'Paper Print', canvas: 'Canvas Print' };
 
-function addPrintOptions(card, piece, img) {
+// Key by artwork image path relative to assets/img/. Each format uses its own live Stripe Payment Link.
+var PRINT_PAYMENT_LINKS = {};
+
+function stripePrintLink(file, format) {
+  var url = PRINT_PAYMENT_LINKS[file]?.[format];
+  return typeof url === 'string' && /^https:\/\/buy\.stripe\.com\/(?!test_)[A-Za-z0-9]+$/.test(url) ? url : '';
+}
+
+function addPrintOptions(card, piece, img, file) {
   var caption = card.querySelector('figcaption');
   if (!caption || caption.querySelector('.print-options')) return;
   var title = piece?.title || caption.querySelector('strong')?.textContent || img.alt;
@@ -626,9 +634,10 @@ function addPrintOptions(card, piece, img) {
   options.className = 'print-options';
   Object.entries(PRINT_FORMATS).forEach(function ([format, label]) {
     var link = document.createElement('a');
-    link.href = 'commission.html?' + new URLSearchParams({ piece: title, print: format });
-    link.textContent = 'Request ' + label;
-    link.setAttribute('aria-label', 'Request ' + label + ' of ' + title);
+    var paymentLink = stripePrintLink(file, format);
+    link.href = paymentLink || 'commission.html?' + new URLSearchParams({ piece: title, print: format });
+    link.textContent = (paymentLink ? 'Buy ' : 'Request ') + label;
+    link.setAttribute('aria-label', link.textContent + ' of ' + title);
     options.appendChild(link);
   });
   caption.appendChild(options);
@@ -643,7 +652,7 @@ function injectBadges() {
     var key = src.replace('assets/img/', '');
     var piece = byFile[key];
     var card = img.closest('.art-card');
-    if (card.closest('[data-print-gallery]')) addPrintOptions(card, piece, img);
+    if (card.closest('[data-print-gallery]')) addPrintOptions(card, piece, img, key);
     if (!piece || !['available', 'sold'].includes(piece.status) || card.querySelector('.badge')) return;
     var badge = document.createElement('span');
     badge.className = 'badge ' + piece.status;
