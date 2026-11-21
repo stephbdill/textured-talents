@@ -649,9 +649,10 @@ function injectBadges() {
   window.ART.forEach(function (p) { byFile[p.file] = p; });
   document.querySelectorAll('.art-card img').forEach(function (img) {
     var src = img.getAttribute('src') || '';
-    var key = src.replace('assets/img/', '');
+    var key = img.dataset.artFile || src.replace('assets/img/', '');
     var piece = byFile[key];
     var card = img.closest('.art-card');
+    if (window.enhanceArtPhoto) window.enhanceArtPhoto(card, key);
     if (card.closest('[data-print-gallery]')) addPrintOptions(card, piece, img, key);
     if (!piece || !['available', 'sold'].includes(piece.status) || card.querySelector('.badge')) return;
     var badge = document.createElement('span');

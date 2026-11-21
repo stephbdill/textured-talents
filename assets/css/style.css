@@ -488,3 +488,26 @@ footer a:hover { text-decoration: underline; }
   .hero-actions .btn { width: 100%; text-align: center; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* Artwork photo and canvas-size update, November 2026. */
+.canvas-sizing { margin-top: 1rem; padding-top: .8rem; border-top: 1px solid #c7bdb0; }
+.canvas-sizing p { margin: .4rem 0; font-size: 1rem; line-height: 1.55; }
+.canvas-sizing .canvas-proof, .canvas-sizing .canvas-finish { font-size: .9rem; }
+.art-card .original-photo-link { margin-top: .75rem; font-size: .9rem; text-decoration: underline; }
+.art-card img { height: auto; }
+.artwork-detail-card { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(280px, 1fr); gap: 2rem; padding: 1.5rem; }
+.artwork-detail-card > a { align-self: start; }
+.artwork-detail-card figcaption { margin: 0; }
+.artwork-detail-card h1 { font-size: clamp(1.7rem, 3vw, 2.5rem); line-height: 1.15; margin-bottom: 1rem; }
+.artwork-detail-card p { margin-bottom: .8rem; }
+@media (max-width: 760px) { .artwork-detail-card { grid-template-columns: 1fr; padding: 1rem; gap: 1.2rem; } }
+
+.print-choices { border: 1px solid #b6ab9c; border-radius: 6px; padding: 1rem; margin: 1.2rem 0; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; }
+.print-choices legend { font-weight: 700; padding: 0 .4rem; }
+.print-choices label { display: block; font-size: 1rem; margin-bottom: .3rem; }
+.print-choices select, .print-choices input { width: 100%; min-height: 44px; padding: .65rem; border: 1px solid #81786c; border-radius: 4px; background: #fff; color: #33312e; font: inherit; }
+.print-choices > div:last-child { grid-column: 1 / -1; }
+@media (max-width: 540px) { .print-choices { grid-template-columns: 1fr; } }
+
+.artwork-detail-card h1 { color: var(--charcoal); }
+#print-price-summary { grid-column: 1 / -1; font-weight: 600; }
