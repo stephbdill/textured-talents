@@ -665,7 +665,7 @@ function injectBadges() {
       if (cap) {
         var line = document.createElement('span');
         line.className = 'price-line';
-        line.innerHTML = artPriceLabel(piece) +
+        line.innerHTML = 'Original artwork: ' + artPriceLabel(piece) +
           ' · <a href="commission.html?v=collector-20260911&piece=' + encodeURIComponent(piece.title) + '">Ask about this piece →</a>';
         var options = cap.querySelector('.print-options');
         cap.insertBefore(document.createElement('br'), options);
@@ -708,7 +708,7 @@ function renderShop(containerId) {
         (p.description ? '<span class="art-description">' + p.description + '</span><br>' : '') +
         (p.dimensions ? 'Size: ' + p.dimensions + '<br>' : '') +
         (p.materials ? '<span class="art-materials">Materials: ' + p.materials + '</span><br>' : '') +
-        '<span class="price-line">' + artPriceLabel(p) +
+        '<span class="price-line">Original artwork: ' + artPriceLabel(p) +
         ' · <a href="commission.html?v=collector-20260911&piece=' + encodeURIComponent(p.title) + '">Ask about this piece →</a></span></figcaption>';
       grid.appendChild(fig);
     });
