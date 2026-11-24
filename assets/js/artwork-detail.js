@@ -22,6 +22,12 @@
   var title = document.createElement('h1');
   title.textContent = photo.title;
   cap.append(title);
+  if (piece && piece.titleNote) {
+    var titleNote = document.createElement('p');
+    titleNote.className = 'art-description';
+    titleNote.textContent = piece.titleNote;
+    cap.append(titleNote);
+  }
   if (piece && piece.description) {
     var description = document.createElement('p');
     description.textContent = piece.description;

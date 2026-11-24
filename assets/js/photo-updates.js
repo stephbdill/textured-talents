@@ -688,14 +688,15 @@ window.ART_PHOTO_UPDATES = {
         9
       ]
     ],
-    "original": "assets/img/pets/white-horse-stable-portrait.jpg",
     "reference": false,
-    "preview": "assets/img/print-photos-20261120/pets__white-horse-stable-portrait-preview.webp",
-    "previewWidth": 703,
+    "original": "assets/img/pets/white-horse-stable-portrait.jpg",
+    "preview": "assets/img/new-work-20261124/white-horse-stable-preview.webp",
+    "previewWidth": 795,
     "previewHeight": 1000,
-    "detail": "assets/img/print-photos-20261120/pets__white-horse-stable-portrait-detail.webp",
-    "detailWidth": 1331,
-    "detailHeight": 1893
+    "detail": "assets/img/new-work-20261124/white-horse-stable-detail.webp",
+    "detailWidth": 1170,
+    "detailHeight": 1471,
+    "printNote": "Please inquire about print sizes and pricing. A print and color proof is required before production."
   },
   "mixed/lemur-green.jpg": {
     "title": "Lemur on Green",
@@ -750,6 +751,62 @@ window.ART_PHOTO_UPDATES = {
     "detail": "assets/img/print-photos-20261120/pets__emma-portrait-detail.webp",
     "detailWidth": 2400,
     "detailHeight": 1614
+  },
+  "new-work-20261124/spotted-cat-red-sofa.jpg": {
+    "title": "Spotted Cat on a Red Sofa",
+    "recommended": [],
+    "proof": [],
+    "reference": false,
+    "original": "assets/img/new-work-20261124/spotted-cat-red-sofa.jpg",
+    "preview": "assets/img/new-work-20261124/spotted-cat-red-sofa-preview.webp",
+    "previewWidth": 1000,
+    "previewHeight": 750,
+    "detail": "assets/img/new-work-20261124/spotted-cat-red-sofa-detail.webp",
+    "detailWidth": 2400,
+    "detailHeight": 1800,
+    "printNote": "Please inquire about print sizes and pricing. A print and color proof is required before production."
+  },
+  "new-work-20261124/horse-blue-sofa.jpg": {
+    "title": "Horse on a Blue Sofa",
+    "recommended": [],
+    "proof": [],
+    "reference": false,
+    "original": "assets/img/new-work-20261124/horse-blue-sofa.jpg",
+    "preview": "assets/img/new-work-20261124/horse-blue-sofa-preview.webp",
+    "previewWidth": 1000,
+    "previewHeight": 750,
+    "detail": "assets/img/new-work-20261124/horse-blue-sofa-detail.webp",
+    "detailWidth": 2400,
+    "detailHeight": 1800,
+    "printNote": "Please inquire about print sizes and pricing. A print and color proof is required before production."
+  },
+  "new-work-20261124/wildlife-layered-bamboo.jpg": {
+    "title": "Wildlife Among Layered Bamboo",
+    "recommended": [],
+    "proof": [],
+    "reference": false,
+    "original": "assets/img/new-work-20261124/wildlife-layered-bamboo.jpg",
+    "preview": "assets/img/new-work-20261124/wildlife-layered-bamboo-preview.webp",
+    "previewWidth": 564,
+    "previewHeight": 1000,
+    "detail": "assets/img/new-work-20261124/wildlife-layered-bamboo-detail.webp",
+    "detailWidth": 1355,
+    "detailHeight": 2400,
+    "printNote": "Please inquire about print sizes and pricing. A print and color proof is required before production."
+  },
+  "new-work-20261124/snow-covered-animal.jpg": {
+    "title": "Snow-Covered Animal",
+    "recommended": [],
+    "proof": [],
+    "reference": false,
+    "original": "assets/img/new-work-20261124/snow-covered-animal.jpg",
+    "preview": "assets/img/new-work-20261124/snow-covered-animal-preview.webp",
+    "previewWidth": 800,
+    "previewHeight": 1000,
+    "detail": "assets/img/new-work-20261124/snow-covered-animal-detail.webp",
+    "detailWidth": 864,
+    "detailHeight": 1080,
+    "printNote": "Please inquire about print sizes and pricing. A print and color proof is required before production."
   }
 };
 window.PRINT_RETAIL_PRICES = {"6x6": 35, "6x8": 35, "6x9": 39, "6x10": 39, "6x12": 45, "8x8": 39, "8x10": 45, "8x12": 55, "8x14": 59, "8x16": 65, "9x12": 55, "10x10": 55, "10x12": 59, "10x15": 69, "10x16": 69, "12x12": 65, "12x16": 79};

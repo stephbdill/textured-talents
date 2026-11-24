@@ -29,8 +29,8 @@
       sizing.className = 'canvas-sizing';
       var standard = document.createElement('p');
       var label = document.createElement('strong');
-      label.textContent = 'Stretched canvas prints: ';
-      standard.append(label, document.createTextNode(photo.recommended.length ? photo.recommended.map(function (size) { return size.join(' × ') + ' in — $' + window.PRINT_RETAIL_PRICES[size.join('x')]; }).join(' · ') : 'A better photograph is needed before standard sizes can be offered.'));
+      label.textContent = photo.printNote ? 'Print inquiries: ' : 'Stretched canvas prints: ';
+      standard.append(label, document.createTextNode(photo.printNote || (photo.recommended.length ? photo.recommended.map(function (size) { return size.join(' × ') + ' in — $' + window.PRINT_RETAIL_PRICES[size.join('x')]; }).join(' · ') : 'A better photograph is needed before standard sizes can be offered.')));
       sizing.append(standard);
       var options = document.createElement('p');
       options.textContent = 'Handmade decorative outer frame +$75 · Installed hanging hardware +$5. Free local pickup; shipping quoted by destination. Prices in USD, before applicable tax.';

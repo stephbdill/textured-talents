@@ -605,6 +605,51 @@ window.ART = [
     "dimensions": "24 × 30 in",
     "materials": "Oil pastel, chalk, acrylic, oil, watercolor pens, fine-tip pens, and pastel chalk",
     "description": "An orange-and-white cat reclines with its fluffy tail curved along the foreground."
+  },
+  {
+    "file": "new-work-20261124/spotted-cat-red-sofa.jpg",
+    "title": "Spotted Cat on a Red Sofa",
+    "category": "Fine Art",
+    "status": "unconfirmed",
+    "price": null,
+    "description": "A spotted cat stretches across a red upholstered sofa beneath a glowing wall lantern.",
+    "titleNote": "Descriptive label; artist title to be confirmed."
+  },
+  {
+    "file": "new-work-20261124/horse-blue-sofa.jpg",
+    "title": "Horse on a Blue Sofa",
+    "category": "Fine Art",
+    "status": "unconfirmed",
+    "price": null,
+    "description": "A brown-and-white horse reclines across an ornate blue sofa against a red wall.",
+    "titleNote": "Descriptive label; artist title to be confirmed."
+  },
+  {
+    "file": "new-work-20261124/wildlife-layered-bamboo.jpg",
+    "title": "Wildlife Among Layered Bamboo",
+    "category": "Fine Art",
+    "status": "unconfirmed",
+    "price": null,
+    "description": "A green parrot, a lemur and a tiger appear among raised corrugated bamboo forms against black.",
+    "titleNote": "Descriptive label; artist title to be confirmed."
+  },
+  {
+    "file": "new-work-20261124/snow-covered-animal.jpg",
+    "title": "Snow-Covered Animal",
+    "category": "Fine Art",
+    "status": "unconfirmed",
+    "price": null,
+    "description": "Amber eyes look out from a dark face patterned with white snow-like marks.",
+    "titleNote": "Descriptive label; artist title to be confirmed.",
+    "materials": "Acrylic on canvas"
+  },
+  {
+    "file": "pets/white-horse-stable-portrait.jpg",
+    "title": "White Horse in Stable",
+    "category": "Pet Portraits",
+    "status": "unconfirmed",
+    "price": null,
+    "description": "A pale horse wearing a dark halter looks outward from a stable interior."
   }
 ];
 
