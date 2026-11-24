@@ -680,7 +680,7 @@ window.ART_PHOTO_UPDATES = {
     "detailHeight": 2400
   },
   "pets/white-horse-stable-portrait.jpg": {
-    "title": "White Horse in Stable",
+    "title": "Wizard",
     "recommended": [],
     "proof": [
       [
@@ -753,7 +753,7 @@ window.ART_PHOTO_UPDATES = {
     "detailHeight": 1614
   },
   "new-work-20261124/spotted-cat-red-sofa.jpg": {
-    "title": "Spotted Cat on a Red Sofa",
+    "title": "Couch Potato",
     "recommended": [],
     "proof": [],
     "reference": false,
@@ -767,7 +767,7 @@ window.ART_PHOTO_UPDATES = {
     "printNote": "Please inquire about print sizes and pricing. A print and color proof is required before production."
   },
   "new-work-20261124/horse-blue-sofa.jpg": {
-    "title": "Horse on a Blue Sofa",
+    "title": "Tango",
     "recommended": [],
     "proof": [],
     "reference": false,
@@ -781,7 +781,7 @@ window.ART_PHOTO_UPDATES = {
     "printNote": "Please inquire about print sizes and pricing. A print and color proof is required before production."
   },
   "new-work-20261124/wildlife-layered-bamboo.jpg": {
-    "title": "Wildlife Among Layered Bamboo",
+    "title": "Three's Company",
     "recommended": [],
     "proof": [],
     "reference": false,
@@ -795,7 +795,7 @@ window.ART_PHOTO_UPDATES = {
     "printNote": "Please inquire about print sizes and pricing. A print and color proof is required before production."
   },
   "new-work-20261124/snow-covered-animal.jpg": {
-    "title": "Snow-Covered Animal",
+    "title": "Rosco",
     "recommended": [],
     "proof": [],
     "reference": false,

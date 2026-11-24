@@ -608,46 +608,42 @@ window.ART = [
   },
   {
     "file": "new-work-20261124/spotted-cat-red-sofa.jpg",
-    "title": "Spotted Cat on a Red Sofa",
+    "title": "Couch Potato",
     "category": "Fine Art",
-    "status": "unconfirmed",
+    "status": "sold",
     "price": null,
-    "description": "A spotted cat stretches across a red upholstered sofa beneath a glowing wall lantern.",
-    "titleNote": "Descriptive label; artist title to be confirmed."
+    "description": "A spotted cat stretches across a red upholstered sofa beneath a glowing wall lantern."
   },
   {
     "file": "new-work-20261124/horse-blue-sofa.jpg",
-    "title": "Horse on a Blue Sofa",
+    "title": "Tango",
     "category": "Fine Art",
-    "status": "unconfirmed",
+    "status": "sold",
     "price": null,
-    "description": "A brown-and-white horse reclines across an ornate blue sofa against a red wall.",
-    "titleNote": "Descriptive label; artist title to be confirmed."
+    "description": "A brown-and-white horse reclines across an ornate blue sofa against a red wall."
   },
   {
     "file": "new-work-20261124/wildlife-layered-bamboo.jpg",
-    "title": "Wildlife Among Layered Bamboo",
+    "title": "Three's Company",
     "category": "Fine Art",
-    "status": "unconfirmed",
+    "status": "available",
     "price": null,
-    "description": "A green parrot, a lemur and a tiger appear among raised corrugated bamboo forms against black.",
-    "titleNote": "Descriptive label; artist title to be confirmed."
+    "description": "A green parrot, a lemur and a tiger appear among raised corrugated bamboo forms against black."
   },
   {
     "file": "new-work-20261124/snow-covered-animal.jpg",
-    "title": "Snow-Covered Animal",
+    "title": "Rosco",
     "category": "Fine Art",
-    "status": "unconfirmed",
+    "status": "available",
     "price": null,
     "description": "Amber eyes look out from a dark face patterned with white snow-like marks.",
-    "titleNote": "Descriptive label; artist title to be confirmed.",
     "materials": "Acrylic on canvas"
   },
   {
     "file": "pets/white-horse-stable-portrait.jpg",
-    "title": "White Horse in Stable",
+    "title": "Wizard",
     "category": "Pet Portraits",
-    "status": "unconfirmed",
+    "status": "sold",
     "price": null,
     "description": "A pale horse wearing a dark halter looks outward from a stable interior."
   }
